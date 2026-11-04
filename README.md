@@ -49,9 +49,3 @@ Using **pgAdmin 4**, a series of business intelligence SQL queries were executed
 * **Discount Effectiveness:** Categorized transactions into discount brackets (`NO DISCOUNT`, `LOW`, `MEDIUM`, `HIGH`) to evaluate how discounts impact order quantities.
 * **Customer Retention Analysis:** Segmented customers into one-time buyers versus repeat customers to measure revenue contribution per segment.
 
-
-
-
-FROM data
-GROUP BY year, month
-ORDER BY year, month;
